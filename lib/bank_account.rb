@@ -40,7 +40,7 @@ class BankAccount
 
     def close_account
     self.status = "closed"
-  end
+    end
 
     def broken
       @balance < 1
