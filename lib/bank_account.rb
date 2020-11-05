@@ -39,8 +39,8 @@ class BankAccount
     end
 
     def close_account
-      @status = "closed"
-    end
+    self.status = "closed"
+  end
 
     def broken
       @balance < 1
